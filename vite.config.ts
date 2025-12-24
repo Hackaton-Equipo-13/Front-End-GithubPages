@@ -5,7 +5,7 @@ import path from 'path';
       export default defineConfig(({ mode }) => {
           const env = loadEnv(mode, '.', '');
           return {
-            base: '/emojigraph-api-dashboard/', // Para GitHub Pages
+            base: '/Front-End-GithubPages/', // Para GitHub Pages
             plugins: [react()],
             resolve: {
               alias: {
