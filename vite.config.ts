@@ -5,7 +5,7 @@ import path from 'path';
       export default defineConfig(({ mode }) => {
           const env = loadEnv(mode, '.', '');
           return {
-            base: '/Front-End-GithubPages/', // Para GitHub Pages
+            base: '/https://Hackaton-Equipo-13/github.io/Front-End-GithubPages/', // Para GitHub Pages
             plugins: [react()],
             resolve: {
               alias: {
